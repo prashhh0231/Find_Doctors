@@ -22,8 +22,8 @@ const Doctorinfo = () => {
                    val.specilization.toLowerCase().includes(search.toLowerCase())){
                        return val;
                    }
-               }).map((val,i)=>{
-                  return <Card val={val} i={i}/>
+               }).map((val,id)=>{
+                  return <Card val={val} i={id}/>
                })
             }
             </div>
