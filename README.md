@@ -1,3 +1,9 @@
+# Shot Explaination of code 
+ we are using react-google-login for google Authentication.
+ if user signin successfull then doctorInfo page will display else it will redirect on login page.
+ In doctorInfo page use filter and map method.With the help of filter method we filter data and with the help of map method
+ display all records which we got.
+ 
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
