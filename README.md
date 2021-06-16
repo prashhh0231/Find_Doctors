@@ -1,6 +1,7 @@
 # Shot Explaination of code 
  we are using react-google-login for google Authentication.
  if user signin successfull then doctorInfo page will display else it will redirect on login page.
+ Data is come from json file. In that json file some dummy data is present.
  In doctorInfo page use filter and map method.With the help of filter method we filter data and with the help of map method
  display all records which we got.
  
