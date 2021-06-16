@@ -1,0 +1,32 @@
+.login{
+    justify-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.logoutbtn{
+    float: right;
+    margin-right: 20px;
+    margin-top: -90px;
+    color: black;
+}
+h3{
+    color: black;
+}
+h2{
+    /* font-family: 'Concert One', cursive; */
+    font-family: 'Lobster', cursive;
+    color: black;
+
+}
+.loginDiv{
+    display: block;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    width: 300px;
+   
+ }
+

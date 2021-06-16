@@ -1,0 +1,42 @@
+.card{
+    margin: 20px;
+    /* background-image: url(https://i.pinimg.com/736x/e0/2d/dd/e02dddab469a7553815182f354b66d1e.jpg); */
+    background-size: cover;
+    background-color: white;
+    width: 30%;
+    padding: 10px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 20px;
+    
+}
+img{
+    width: 60px;
+}
+.card >h1{
+    /* color: #000000; */
+    color: black;
+    font-family: 'Concert One', cursive;
+}
+.card >h3{
+    color: #047685;
+    margin-top: -10px;
+    font-family: 'Charmonman', cursive;
+    font-size: 30px;
+}
+.email{
+    font-family: 'Courgette', cursive;
+    margin-top: -10px;
+    align-items: center;
+    font-size: 1.5rem;
+    color: black;
+}
+
+@media only screen and (max-width: 600px) {
+    .card{
+        width: 90%;
+    }
+  }
